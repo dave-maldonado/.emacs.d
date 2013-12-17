@@ -1,6 +1,10 @@
-((("autopair" .
-   [1 0 0 0 0 0 0 0])
+((("sr-speedbar-max-width" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sr-speedbar-skip-other-window-p" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("rsense-home" .
+   [1 0 0 0 0 0 0 0 0 0 0])
   ("require" .
    [2 0 0 0 0 0 0])
-  ("rsense-home" .
-   [1 0 0 0 0 0 0 0 0 0 0])))
+  ("autopair" .
+   [1 0 0 0 0 0 0 0])))

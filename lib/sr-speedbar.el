@@ -249,12 +249,12 @@
   "Same frame speedbar."
   :group 'speedbar)
 
-(defcustom sr-speedbar-width-x 24
+(defcustom sr-speedbar-width-x 15
   "Initial width of `sr-speedbar-window' under window system."
   :type 'integer
   :group 'sr-speedbar)
 
-(defcustom sr-speedbar-width-console 24
+(defcustom sr-speedbar-width-console 15
   "Initial width of `sr-speedbar-window' on console."
   :type 'integer
   :group 'sr-speedbar)
@@ -294,7 +294,7 @@ Default is nil."
   :type 'boolean
   :group 'sr-speedbar)
 
-(defcustom sr-speedbar-skip-other-window-p nil
+(defcustom sr-speedbar-skip-other-window-p t
   "Whether skip `sr-speedbar' window with `other-window'.
 Default, can use `other-window' select window in cyclic
 ordering of windows.  But sometimes we don't want select
