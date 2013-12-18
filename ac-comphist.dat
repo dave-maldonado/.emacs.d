@@ -1,10 +1,36 @@
-((("sr-speedbar-max-width" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("sr-speedbar-skip-other-window-p" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+((("it" .
+   [1 0])
+  ("mark" .
+   [2 0 0 0])
+  ("index" .
+   [2 0 0 0 0])
+  ("set_square" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("def" .
+   [1 0 0])
+  ("must_equal" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("board" .
+   [5 0 0 0 0])
+  ("do" .
+   [4 0])
+  ("describe" .
+   [2 0 0 0 0 0 0 0])
+  ("markdown-mode" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("autopair" .
+   [1 0 0 0 0 0 0 0])
+  ("require" .
+   [4 0 0 0 0 0 0])
   ("rsense-home" .
    [1 0 0 0 0 0 0 0 0 0 0])
-  ("require" .
-   [2 0 0 0 0 0 0])
-  ("autopair" .
-   [1 0 0 0 0 0 0 0])))
+  ("sr-speedbar-skip-other-window-p" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sr-speedbar-max-width" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("autoload" .
+   [1 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [2 0 0 0 0 0 0 0 1 0 0])
+  ("auto-mode-alist" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))
