@@ -1,4 +1,4 @@
-;; Dave's emacs init file 2013  
+;; Dave's emacs init file 2013
 
 ;; font and size
 (set-default-font "Inconsolata 14")
@@ -45,6 +45,13 @@
 (global-linum-mode 1)
 (setq linum-format " %d ")
 
+;; kill trailing whitespace on file write
+(add-hook 'write-file-hooks 'delete-trailing-whitespace)
+
+;; highlight part of line that goes beyond column 80
+(setq whitespace-style '(face empty tabs lines-tail trailing))
+(global-whitespace-mode t)
+
 ;; electric-indent
 (electric-indent-mode +1)
 
@@ -78,6 +85,9 @@
       scroll-preserve-screen-position 1)
 (setq mouse-wheel-follow 't)
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
+
+;; disable bell
+(setq ring-bell-function 'ignore)
 
 ;; Autocomplete
 (require 'auto-complete-config)
