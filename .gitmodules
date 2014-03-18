@@ -8,3 +8,18 @@ url = https://github.com/syohex/emacs-git-gutter.git
 path = lib/emacs-git-gutter-fringe
 url = https://github.com/syohex/emacs-git-gutter-fringe.git
 
+[submodule "lib/fringe-helper.el"]
+	path = lib/fringe-helper.el
+	url = https://github.com/nschum/fringe-helper.el.git
+[submodule "lib/emacs-slim"]
+	path = lib/emacs-slim
+	url = https://github.com/slim-template/emacs-slim.git
+[submodule "lib/haml-mode"]
+	path = lib/haml-mode
+	url = https://github.com/nex3/haml-mode.git
+[submodule "lib/rhtml"]
+	path = lib/rhtml
+	url = https://github.com/eschulte/rhtml.git
+[submodule "lib/rinari"]
+	path = lib/rinari
+	url = https://github.com/eschulte/rinari
