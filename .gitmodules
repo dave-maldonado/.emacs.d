@@ -25,3 +25,9 @@
 [submodule "lib/rvm"]
 	path = lib/rvm
 	url = https://github.com/senny/rvm.el.git
+[submodule "lib/flymake-ruby"]
+	path = lib/flymake-ruby
+	url = https://github.com/purcell/flymake-ruby.git
+[submodule "lib/flymake-easy"]
+	path = lib/flymake-easy
+	url = https://github.com/purcell/flymake-easy.git
