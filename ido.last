@@ -1,0 +1,37 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/dave/code/ruby/" . "rails/")
+ ("/Users/dave/code/ruby/rails/" . "wmnf.org/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/dave/.emacs.d/"
+ "/Users/dave/code/ruby/rails/wmnf.org/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "COPYRIGHT_GALLERY"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/dave/.emacs.d/" (21288 55297 0 0) "README.md" "lib/" "init.el" "auto-save-list/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/dave/code/ruby/rails/wmnf.org/" (21289 1272 0 0) "vendor/" "v/" "tmp/" "test_twitter.rb" "test/" "spec_old/" "spec/" "selenium/" "script/" "refresh_cache.rb" "README.rdoc" "README" "Rakefile" "public/" "new/" "make_time.rb.bak" "make_time.rb" "log/" "lib/" "Gemfile.lock" "Gemfile" "features/" "doc/" "db/" "COPYRIGHT_GALLERY" "config.ru" "config/" "benchmark/" "app/" ".ruby-version" ".ruby-gemset" ".project" ".gitignore.rails2" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/dave/code/ruby/rails/" (21289 1439 0 0) "wmnf.org/" "learn-rails/" "../" "./")
+
+ ("/Users/dave/code/ruby/" (21288 63737 0 0) "tic_tac_doh2/" "rails/" "../" "./")
+
+ ("/Users/dave/code/" (21288 56360 0 0) "solarized/" "ruby/" ".DS_Store" "../" "./")
+
+ ("/Users/dave/" (21289 1665 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "code/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-David’s MacBook Pro-5.0.2" ".Trash/" ".subversion/" ".ssh/" ".rvm/" ".pry_history" ".profile" ".oh-my-zsh/" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".bashrc" ".bash_profile" ".bash_history" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

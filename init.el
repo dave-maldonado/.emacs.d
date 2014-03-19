@@ -55,11 +55,6 @@
 ;; electric-indent
 (electric-indent-mode +1)
 
-;; ;; sr-speedbar
-;; (require 'sr-speedbar)
-;; (sr-speedbar-open)
-;; (sr-speedbar-refresh-turn-on)
-
 ;; solarized color theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/lib/emacs-color-theme-solarized")
 (load-theme 'solarized-dark t)
