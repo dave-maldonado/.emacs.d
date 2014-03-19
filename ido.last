@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/dave/.emacs.d/lib/" . "fringe-helper.el/")
  ("/Users/dave/code/ruby/" . "rails/")
  ("/Users/dave/code/ruby/rails/" . "wmnf.org/")
 )
@@ -9,6 +10,7 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/dave/.emacs.d/"
+ "/Users/dave/.emacs.d/lib/fringe-helper.el/"
  "/Users/dave/code/ruby/rails/wmnf.org/app/controllers/"
  "/Users/dave/code/ruby/rails/wmnf.org/config/"
  "/Users/dave/code/ruby/rails/wmnf.org/"
@@ -17,6 +19,7 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "fringe-helper.el"
  "archives_controller.rb"
  "routes.rb"
  "COPYRIGHT_GALLERY"
@@ -24,9 +27,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/dave/.emacs.d/" (21289 4435 0 0) "README.md" "lib/" "init.el" "ido.last" "auto-save-list/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+ ("/Users/dave/.emacs.d/" (21289 6265 0 0) "README.md" "lib/" "init.el" "ido.last~" "ido.last" "auto-save-list/" ".gitmodules" ".gitignore" ".git/" "../" "./")
 
- ("/Users/dave/" (21289 5266 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "code/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-David’s MacBook Pro-5.0.2" ".Trash/" ".subversion/" ".ssh/" ".rvm/" ".pry_history" ".profile" ".oh-my-zsh/" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".bashrc" ".bash_profile" ".bash_history" "../" "./")
+ ("/Users/dave/" (21289 6259 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "code/" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-David’s MacBook Pro-5.0.2" ".Trash/" ".subversion/" ".ssh/" ".rvm/" ".pry_history" ".profile" ".oh-my-zsh/" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".bashrc" ".bash_profile" ".bash_history" "../" "./")
+
+ ("/Users/dave/.emacs.d/lib/fringe-helper.el/" (21288 49836 0 0) "tests.el" "README.md" "fringe-helper.el" ".travis.yml" ".gitignore" ".git" ".dir-locals.el" "../" "./")
+
+ ("/Users/dave/.emacs.d/lib/" (21289 4198 0 0) "rinari/" "rhtml/" "paredit.el" "markdown-mode.el" "haml-mode/" "fringe-helper.el/" "emacs-slim/" "emacs-git-gutter-fringe/" "emacs-git-gutter/" "emacs-color-theme-solarized/" "autopair.el" "../" "./")
 
  ("/Users/dave/code/ruby/rails/wmnf.org/app/controllers/" (21288 56469 0 0) "zip_code_search_example_controller.rb" "wishlist_items_controller.rb" "volunteers_controller.rb" "volunteer_opportunities_controller.rb" "volunteer_controller.rb" "venues_controller.rb" "users_controller.rb" "twitter_controller.rb" "twitter_accounts_controller.rb" "ticket_outlets_controller.rb" "ticket_orders_controller.rb" "testimonials_controller.rb" "support_controller.rb" "station_meetings_controller.rb" "station_controller.rb" "staff_positions_controller.rb" "staff_departments_controller.rb" "sponsored_events_controller.rb" "special_archives_controller.rb" "sessions_controller.rb" "search_controller.rb" "redirect_controller.rb" "programs_controller.rb" "program_updates_controller.rb" "program_strips_controller.rb" "program_specials_controller.rb" "program_news_items_controller.rb" "profiles_controller.rb" "premiums_controller.rb" "playlists_controller.rb" "playlist_controller.rb" "planned_giving_pages_controller.rb" "picture_controller.rb" "performers_controller.rb" "people_controller.rb" "pages_controller.rb" "orders_controller.rb" "onair_guests_controller.rb" "non_profits_controller.rb" "news_story_soundclip_controller.rb" "news_stories_controller.rb" "news_items_controller.rb" "news_controller.rb" "musiclib_controller.rb" "music_controller.rb" "mobile/" "marathons_controller.rb" "marathon_manager/" "login_controller.rb" "listen_controller.rb" "job_openings_controller.rb" "host_profiles_controller.rb" "home_controller.rb" "home_banner_images_controller.rb" "help_controller.rb" "heatwave_vendor_applications_controller.rb" "heatwave_controller.rb" "heatwave_bands_controller.rb" "gallery_controller.rb" "flags_controller.rb" "file_drops_controller.rb" "feed_controller.rb" "facebook_accounts_controller.rb" "events_controller.rb" "downloadable_files_controller.rb" "donations_controller.rb" "dj_controller.rb" "countdown_to_success_controller.rb" "community_partners_controller.rb" "community_partner_types_controller.rb" "community_controller.rb" "community_announcements_controller.rb" "charts_controller.rb" "cd_tracks_controller.rb" "cd_artists_controller.rb" "calendar_events_controller.rb" "calendar_controller.rb" "blogs_controller.rb" "blog_posts_controller.rb" "audio_stream_controller.rb" "arts_controller.rb" "archives_controller.rb" "archive_listens_controller.rb" "application_controller.rb.rails2" "application_controller.rb" "albums_controller.rb" "admin/" "account_controller.rb" "../" "./")
 
