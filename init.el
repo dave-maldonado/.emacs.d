@@ -66,10 +66,10 @@
 (setq ido-create-new-buffer 'always)
 (setq ido-file-extensions-order '(".rb" ".erb" ".haml " ".html" ".java" ".clj" ".hs"))
 
-;; ;; git-gutter
-;; (when (window-system)
-;;   (require 'git-gutter-fringe)
-;;   (global-git-gutter-mode t))
+;; git-gutter
+(when (window-system)
+  (require 'git-gutter-fringe)
+  (global-git-gutter-mode t))
 
 
 ;; scrolling mods
