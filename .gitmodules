@@ -22,3 +22,6 @@
 [submodule "lib/fringe-helper"]
 	path = lib/fringe-helper
 	url = https://github.com/nschum/fringe-helper.el
+[submodule "lib/rvm"]
+	path = lib/rvm
+	url = https://github.com/senny/rvm.el.git

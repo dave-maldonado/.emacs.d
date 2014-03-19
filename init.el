@@ -71,7 +71,6 @@
   (require 'git-gutter-fringe)
   (global-git-gutter-mode t))
 
-
 ;; scrolling mods
 (setq redisplay-dont-pause t
       scroll-margin 1
@@ -91,6 +90,10 @@
 (require 'rhtml-mode)
 (require 'haml-mode)
 (require 'slim-mode)
+
+;; rvm
+(require 'rvm)
+(rvm-use-default)
 
 ;; markdown
 (autoload 'markdown-mode "markdown-mode"
