@@ -31,3 +31,9 @@
 [submodule "lib/flymake-easy"]
 	path = lib/flymake-easy
 	url = https://github.com/purcell/flymake-easy.git
+[submodule "lib/ag"]
+	path = lib/ag
+	url = https://github.com/Wilfred/ag.el
+[submodule "lib/undo-tree"]
+	path = lib/undo-tree
+	url = http://www.dr-qubit.org/git/undo-tree.git

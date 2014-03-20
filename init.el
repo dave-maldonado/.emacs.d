@@ -130,3 +130,10 @@
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "/Users/dave/.emacs.d/lib//ac-dict")
 (ac-config-default)
+
+;; ag
+(require 'ag)
+
+;; undo-tree
+(require 'undo-tree)
+(global-undo-tree-mode)
