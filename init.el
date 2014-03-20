@@ -125,3 +125,8 @@
 (require 'flymake-easy)
 (require 'flymake-ruby)
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
+
+;; auto-complete
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "/Users/dave/.emacs.d/lib//ac-dict")
+(ac-config-default)
