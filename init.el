@@ -137,3 +137,8 @@
 ;; undo-tree
 (require 'undo-tree)
 (global-undo-tree-mode)
+
+;; multi-term
+(require 'multi-term)
+(setq multi-term-program "/bin/zsh")
+(setq multi-term-program-switches "--login")
