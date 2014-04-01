@@ -94,6 +94,9 @@
 (require 'rhtml-mode)
 (require 'haml-mode)
 (require 'slim-mode)
+(setq exec-path (cons (expand-file-name "~/.rvm/gems/ruby-2.1.1@global/gems") exec-path))
+(autoload 'scss-mode "scss-mode")
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 
 ;; markdown
 (autoload 'markdown-mode "markdown-mode"
@@ -142,3 +145,9 @@
 (require 'multi-term)
 (setq multi-term-program "/bin/zsh")
 (setq multi-term-program-switches "--login")
+
+;; fix too-dark faces
+(set-face-attribute 'term-color-black nil :foreground "#52676f")
+(set-face-attribute 'whitespace-indentation nil :foreground "#52676f")
+(set-face-attribute 'whitespace-space nil :foreground "#52676f")
+(set-face-attribute 'whitespace-tab nil :foreground "#52676f")

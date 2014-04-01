@@ -37,3 +37,6 @@
 [submodule "lib/undo-tree"]
 	path = lib/undo-tree
 	url = http://www.dr-qubit.org/git/undo-tree.git
+[submodule "lib/scss-mode"]
+	path = lib/scss-mode
+	url = https://github.com/antonj/scss-mode
