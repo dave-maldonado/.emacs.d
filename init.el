@@ -62,6 +62,11 @@
 ;; autopair
 (require 'autopair)
 (autopair-global-mode)
+;; pair % in rhtml mode
+(add-hook 'rhtml-mode-hook
+	  #'(lambda ()
+	      (modify-syntax-entry ?% "\"")
+	      (autopair-mode)))
 
 ;; ido mode
 (setq ido-enable-flex-matching t)
