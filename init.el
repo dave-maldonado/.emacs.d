@@ -156,3 +156,6 @@
 (set-face-attribute 'whitespace-indentation nil :foreground "#52676f")
 (set-face-attribute 'whitespace-space nil :foreground "#52676f")
 (set-face-attribute 'whitespace-tab nil :foreground "#52676f")
+
+;; start server for emacsclient
+(server-start)
