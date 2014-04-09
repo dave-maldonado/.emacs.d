@@ -1,120 +1,120 @@
-((("commands" .
-   [1 0 0 0 0 0 0 0])
-  ("to" .
-   [1 0])
-  ("previous" .
-   [1 0 0 0 0 0 0 0])
-  ("Dave" .
+((("other-window" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("save-buffer" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("buffer-file-name" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("before" .
+   [2 0 0 0 0 0])
+  ("switch-to-buffer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defadvice" .
+   [2 0 0 0 0 0 0 0 0])
+  ("scroll-down-command" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scroll-up-command" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("term-bind-key-alist" .
+   [0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0])
+  ("add-to-list" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("whitespace-tab" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("whitespace-space" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("whitespace-indentation" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("whitespace" .
+   [0 0 0 0 0 0 0 0 0 1])
+  (":foreground" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("term-color-black" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set-face-attribute" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("face" .
    [1 0 0 0])
-  ("by" .
+  ("face-background" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("term-default-bg-color" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("default" .
+   [2 0 0 0 0 0 0])
+  ("face-foreground" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("term-default-fg-color" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("up" .
    [1 0])
-  ("modified" .
-   [2 0 0 0 0 0 0 0])
-  ("server-start" .
-   [1 0 0 0 0 0 0 0 0 0 0 1])
-  ("module" .
-   [1 0 0 0 0 0])
-  ("false" .
+  ("color" .
    [1 0 0 0 0])
-  ("FALSE" .
-   [0 0 0 0 2])
-  ("else" .
-   [1 0 0 0])
-  ("unless" .
-   [1 0 0 0 0 0])
-  ("true" .
-   [1 0 0 0])
-  ("foo" .
-   [1 0 0])
-  ("when" .
-   [4 0 0 0])
-  ("case" .
-   [2 0 0 0])
-  ("leap" .
-   [1 0 0 0])
-  ("def" .
-   [1 0 0])
-  ("Year" .
-   [1 0 0 0])
-  ("year" .
-   [8 0 0 0])
-  ("class" .
-   [2 0 0 0 0])
-  ("nil" .
-   [3 0 0])
-  ("system-uses-terminfo" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("set" .
-   [2 0 0])
-  ("terminfo" .
-   [1 0 0 0 0 0 0 0])
-  ("term" .
-   [3 0 0 0])
-  ("multi-term" .
-   [1 0 0 0 0 0 0 0 0 1])
-  ("setq" .
-   [5 0 0 0])
-  ("multi-term-program-switches" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("mult" .
+  ("global-undo-tree-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("require" .
+   [3 0 0 0 0 0 0])
+  ("again" .
+   [0 0 1 0 0])
+  ("undo" .
    [1 0 0 0])
   ("undo-tree" .
    [1 0 0 0 0 0 0 0 0])
-  ("undo" .
+  ("mult" .
    [1 0 0 0])
-  ("again" .
-   [0 0 1 0 0])
-  ("require" .
-   [3 0 0 0 0 0 0])
-  ("global-undo-tree-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("color" .
+  ("multi-term-program-switches" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [5 0 0 0])
+  ("multi-term" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("term" .
+   [3 0 0 0])
+  ("terminfo" .
+   [1 0 0 0 0 0 0 0])
+  ("set" .
+   [2 0 0])
+  ("system-uses-terminfo" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("nil" .
+   [3 0 0])
+  ("class" .
+   [2 0 0 0 0])
+  ("year" .
+   [8 0 0 0])
+  ("Year" .
+   [1 0 0 0])
+  ("def" .
+   [1 0 0])
+  ("leap" .
+   [1 0 0 0])
+  ("case" .
+   [2 0 0 0])
+  ("when" .
+   [4 0 0 0])
+  ("foo" .
+   [1 0 0])
+  ("true" .
+   [1 0 0 0])
+  ("unless" .
+   [1 0 0 0 0 0])
+  ("else" .
+   [1 0 0 0])
+  ("FALSE" .
+   [0 0 0 0 2])
+  ("false" .
    [1 0 0 0 0])
-  ("up" .
+  ("module" .
+   [1 0 0 0 0 0])
+  ("server-start" .
+   [1 0 0 0 0 0 0 0 0 0 0 1])
+  ("modified" .
+   [2 0 0 0 0 0 0 0])
+  ("by" .
    [1 0])
-  ("term-default-fg-color" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("face-foreground" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("default" .
-   [2 0 0 0 0 0 0])
-  ("term-default-bg-color" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("face-background" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("face" .
+  ("Dave" .
    [1 0 0 0])
-  ("set-face-attribute" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("term-color-black" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  (":foreground" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("whitespace" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("whitespace-indentation" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("whitespace-space" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("whitespace-tab" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-to-list" .
-   [4 0 0 0 0 0 0 0 0 0 0])
-  ("term-bind-key-alist" .
-   [0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0])
-  ("scroll-up-command" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("scroll-down-command" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("defadvice" .
-   [2 0 0 0 0 0 0 0 0])
-  ("switch-to-buffer" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("before" .
-   [2 0 0 0 0 0])
-  ("buffer-file-name" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("save-buffer" .
-   [1 0 0 0 0 1 0 0 0 0 0])
-  ("other-window" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])))
+  ("previous" .
+   [1 0 0 0 0 0 0 0])
+  ("to" .
+   [1 0])
+  ("commands" .
+   [1 0 0 0 0 0 0 0])))

@@ -54,6 +54,15 @@
               (modify-syntax-entry ?% "\"")
               (autopair-mode)))
 
+;; rainbow delimiters
+;; if re-installing don't forget to M-x byte-compile-file rainbow-delimiters.el
+(require 'rainbow-delimiters)
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+(set-face-attribute 'rainbow-delimiters-unmatched-face nil
+                    :foreground 'unspecified
+                    :inherit 'error
+                    :strike-through t)
+
 ;; ido mode
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
