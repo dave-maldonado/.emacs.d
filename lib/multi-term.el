@@ -323,8 +323,10 @@ If this option is nil, don't switch other `multi-term' buffer."
     ("M-f" . term-send-forward-word)
     ("M-b" . term-send-backward-word)
     ("M-o" . term-send-backspace)
-    ("M-p" . term-send-up)
-    ("M-n" . term-send-down)
+;; modified by Dave
+    ("M-p" . scroll-down-command)
+    ("M-n" . scroll-up-command)
+;; previous two commands modified
     ("M-M" . term-send-forward-kill-word)
     ("M-N" . term-send-backward-kill-word)
     ("M-r" . term-send-reverse-search-history)
