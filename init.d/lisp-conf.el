@@ -3,6 +3,9 @@
 ;; mit-scheme integration for SICP, make sure to install mit-scheme first!
 (require 'xscheme)
 
+;; Clojure
+(require 'clojure-mode)
+
 ;; paredit stuff
 (require 'paredit)
   (defadvice paredit-mode (around disable-autopairs-around (arg))
@@ -22,3 +25,4 @@
 (add-hook 'lisp-mode-hook             #'enable-paredit-mode)
 (add-hook 'lisp-interaction-mode-hook #'enable-paredit-mode)
 (add-hook 'scheme-mode-hook           #'enable-paredit-mode)
+(add-hook 'clojure-mode-hook          #'enable-paredit-mode)
