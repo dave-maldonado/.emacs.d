@@ -1,7 +1,8 @@
 ;; Emacs configuration for lispy languages
 
-;; mit-scheme integration for SICP, make sure to install mit-scheme first!
-(require 'xscheme)
+;; Quack!
+(setq scheme-program-name "mit-scheme-x86-64")
+(require 'quack)
 
 ;; Clojure
 (require 'clojure-mode)

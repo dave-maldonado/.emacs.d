@@ -103,6 +103,15 @@
 (require 'multi-term)
 (setq multi-term-program "/bin/zsh")
 (setq multi-term-program-switches "--login")
+(add-to-list 'term-bind-key-alist '("C-f" . forward-char))
+(add-to-list 'term-bind-key-alist '("C-b" . backward-char))
+(add-to-list 'term-bind-key-alist '("C-a" . move-beginning-of-line))
+(add-to-list 'term-bind-key-alist '("C-e" . move-end-of-line))
+(add-to-list 'term-bind-key-alist '("M-p" . scroll-down-command))
+(add-to-list 'term-bind-key-alist '("M-n" . scroll-up-command))
+(add-to-list 'term-bind-key-alist '("C-w" . kill-region))
+(add-to-list 'term-bind-key-alist '("M-w" . kill-ring-save))
+(add-to-list 'term-bind-key-alist '("M-y" . yank-pop))
 
 ;; fix too-dark faces
 (set-face-attribute 'term-color-black nil :foreground "#52676f")
@@ -110,5 +119,18 @@
 (set-face-attribute 'whitespace-space nil :foreground "#52676f")
 (set-face-attribute 'whitespace-tab nil :foreground "#52676f")
 
+;; pretty mode plus
+(require 'pretty-mode-plus)
+(global-pretty-mode 1)
+
 ;; start server for emacsclient
 (server-start)
+
+;; coq mode (install coq with Homebrew first!)
+(setq auto-mode-alist (cons '("\.v$" . coq-mode) auto-mode-alist))
+(autoload 'coq-mode "coq" "Major mode for editing Coq vernacular." t)
+
+;; Proof General
+(load-file "~/.emacs.d/lib/ProofGeneral/generic/proof-site.el")
+(setq coq-prog-name "/usr/local/bin/coqtop")
+(setq proof-splash-enable nil)
