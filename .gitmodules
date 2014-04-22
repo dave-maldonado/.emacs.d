@@ -46,3 +46,6 @@
 [submodule "lib/pretty-mode-plus"]
 	path = lib/pretty-mode-plus
 	url = http://github.com/grettke/pretty-mode-plus.git
+[submodule "lib/haskell-mode"]
+	path = lib/haskell-mode
+	url = https://github.com/haskell/haskell-mode.git

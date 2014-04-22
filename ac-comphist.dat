@@ -1,4 +1,12 @@
-((("proof-splash-enable" .
+((("Info-default-directory-list" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("electric-indent-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("electric-indent-local-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("coq-mode-hook" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("proof-splash-enable" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("proof-three-window-enable" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
@@ -93,7 +101,7 @@
   ("multi-term-program-switches" .
    [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("setq" .
-   [7 0 0 0])
+   [10 0 0 0])
   ("multi-term" .
    [1 0 0 0 0 0 0 0 0 1])
   ("term" .
@@ -101,7 +109,7 @@
   ("terminfo" .
    [1 0 0 0 0 0 0 0])
   ("set" .
-   [3 0 0])
+   [4 0 0])
   ("system-uses-terminfo" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("nil" .
@@ -149,11 +157,11 @@
   ("commands" .
    [1 0 0 0 0 0 0 0])
   ("add-hook" .
-   [1 0 0 0 0 0 0 0])
+   [4 0 0 0 0 0 0 0])
   ("enable-paredit-mode" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("lambda" .
-   [1 0 0 0 0 0])
+   [3 0 0 0 0 0])
   ("scroll-up" .
    [1 0 0 0 0 0 0 0 0])
   ("forward-char" .
@@ -183,4 +191,24 @@
   ("autoload" .
    [1 0 0 0 0 0 0 0])
   ("coq-mode" .
-   [1 0 0 0 0 0 0 0])))
+   [2 0 0 0 0 0 0 0])
+  ("coq-unicode-tokens-enable" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("proof-electric-terminator-enable" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("coq-script-" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("defun" .
+   [1 0 0 0 0])
+  ("coq" .
+   [1 0 0])
+  ("local-set-key" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("newline-and-indent" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("coq-mode-newline-and-indent" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("load" .
+   [1 0 0 0])))
