@@ -1,232 +1,260 @@
-((("eq" .
-   [1 0])
-  ("go" .
-   [1 0])
-  ("load" .
-   [1 0 0 0])
-  ("coq-mode-newline-and-indent" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("newline-and-indent" .
-   [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("kbd" .
-   [1 0 0])
-  ("local-set-key" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("coq" .
-   [1 0 0])
-  ("defun" .
-   [1 0 0 0 0])
-  ("coq-script-" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("proof-electric-terminator-enable" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("coq-unicode-tokens-enable" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("coq-mode" .
-   [2 0 0 0 0 0 0 0])
-  ("autoload" .
-   [1 0 0 0 0 0 0 0])
-  ("cons" .
-   [1 0 1 0])
-  ("auto-mode-alist" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("PATH" .
-   [1 0 0 0])
-  ("LOWER" .
-   [1 0 0 0 0])
-  ("STEP" .
-   [1 0 0 0])
-  ("UPPER" .
-   [1 0 0 0 0])
-  ("printf" .
-   [1 0 0 0 0 0])
-  ("20" .
-   [1 0])
-  ("define" .
-   [2 0 0 0 0 0])
-  ("300" .
-   [2 0 0])
-  ("backward-char" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("forward-char" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("scroll-up" .
-   [1 0 0 0 0 0 0 0 0])
-  ("lambda" .
-   [3 0 0 0 0 0])
-  ("enable-paredit-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
-   [4 0 0 0 0 0 0 0])
-  ("commands" .
-   [1 0 0 0 0 0 0 0])
-  ("to" .
-   [1 0])
-  ("previous" .
-   [1 0 0 0 0 0 0 0])
-  ("Dave" .
-   [1 0 0 0])
-  ("by" .
-   [1 0])
-  ("modified" .
-   [2 0 0 0 0 0 0 0])
-  ("server-start" .
-   [1 0 0 0 0 0 0 0 0 0 0 1])
-  ("module" .
-   [1 0 0 0 0 0])
-  ("false" .
-   [1 0 0 0 0])
-  ("FALSE" .
-   [0 0 0 0 2])
-  ("else" .
-   [1 0 0 0])
-  ("unless" .
-   [1 0 0 0 0 0])
-  ("true" .
-   [1 0 0 0])
-  ("foo" .
-   [1 0 0])
-  ("when" .
-   [4 0 0 0])
-  ("case" .
-   [2 0 0 0])
-  ("leap" .
-   [1 0 0 0])
-  ("def" .
-   [1 0 0])
-  ("Year" .
-   [1 0 0 0])
-  ("year" .
-   [8 0 0 0])
-  ("class" .
-   [2 0 0 0 0])
-  ("nil" .
-   [4 0 0])
-  ("system-uses-terminfo" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("set" .
-   [6 0 0])
-  ("terminfo" .
-   [1 0 0 0 0 0 0 0])
-  ("term" .
-   [3 0 0 0])
-  ("multi-term" .
-   [1 0 0 0 0 0 0 0 0 1])
-  ("setq" .
-   [13 0 0 0])
-  ("multi-term-program-switches" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("mult" .
-   [1 0 0 0])
-  ("undo-tree" .
-   [1 0 0 0 0 0 0 0 0])
-  ("undo" .
-   [1 0 0 0])
-  ("again" .
-   [0 0 1 0 0])
-  ("require" .
-   [7 0 0 0 0 0 0])
-  ("global-undo-tree-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("color" .
-   [1 0 0 0 0])
-  ("up" .
-   [1 0])
-  ("term-default-fg-color" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("face-foreground" .
+((("c-basic-offset" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("c-default-style" .
    [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("default" .
-   [2 0 0 0 0 0 0])
-  ("term-default-bg-color" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("face-background" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("face" .
-   [1 0 0 0])
-  ("set-face-attribute" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("term-color-black" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  (":foreground" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("whitespace" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("whitespace-indentation" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("whitespace-space" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("whitespace-tab" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-to-list" .
-   [11 0 0 0 0 0 0 0 0 1 0])
-  ("term-bind-key-alist" .
-   [3 0 0 0 0 0 0 0 1 6 1 0 0 1 0 0 0 0 0])
-  ("scroll-up-command" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("scroll-down-command" .
-   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("defadvice" .
-   [2 0 0 0 0 0 0 0 0])
-  ("switch-to-buffer" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("before" .
-   [2 0 0 0 0 0])
-  ("buffer-file-name" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("save-buffer" .
-   [1 0 0 0 0 1 0 0 0 0 0])
-  ("other-window" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("dash" .
-   [1 0 0 0])
-  ("pkg-info" .
-   [0 0 0 1 0 0 0 0])
-  ("move-beginning-of-line" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("terms" .
-   [0 0 0 0 1])
-  ("move-end-of-line" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("kill-region" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("kill-ring-save" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("yank" .
-   [1 0 0 0])
-  ("yank-pop" .
-   [1 0 0 0 0 0 0 0])
-  ("load-file" .
+  ("languages" .
    [1 0 0 0 0 0 0 0 0])
-  ("custom-set-variables" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("coq-prog-name" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("proof-three-window-" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("proof-three-window-enable" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("proof-splash-enable" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("coq-mode-hook" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("electric-indent-local-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("electric-indent-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Info-default-directory-list" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("setenv" .
-   [5 0 0 0 0 0])
-  ("concat" .
-   [3 0 0 0 0 0])
-  ("getenv" .
+  ("expand-file-name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("list" .
+   [1 0 0 0])
+  ("append" .
    [3 0 0 0 0 0])
   ("exec-path" .
    [6 0 0 0 0 0 0 0 0])
-  ("append" .
+  ("getenv" .
    [3 0 0 0 0 0])
-  ("list" .
+  ("concat" .
+   [3 0 0 0 0 0])
+  ("setenv" .
+   [5 0 0 0 0 0])
+  ("Info-default-directory-list" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("electric-indent-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("electric-indent-local-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("coq-mode-hook" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("proof-splash-enable" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("proof-three-window-enable" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("proof-three-window-" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("coq-prog-name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("custom-set-variables" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("load-file" .
+   [1 0 0 0 0 0 0 0 0])
+  ("yank-pop" .
+   [1 0 0 0 0 0 0 0])
+  ("yank" .
    [1 0 0 0])
-  ("expand-file-name" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))
+  ("kill-ring-save" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("kill-region" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("move-end-of-line" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("terms" .
+   [0 0 0 0 1])
+  ("move-beginning-of-line" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pkg-info" .
+   [0 0 0 1 0 0 0 0])
+  ("dash" .
+   [1 0 0 0])
+  ("other-window" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("save-buffer" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("buffer-file-name" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("before" .
+   [2 0 0 0 0 0])
+  ("switch-to-buffer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defadvice" .
+   [2 0 0 0 0 0 0 0 0])
+  ("scroll-down-command" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scroll-up-command" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("term-bind-key-alist" .
+   [3 0 0 0 0 0 0 0 1 6 1 0 0 1 0 0 0 0 0])
+  ("add-to-list" .
+   [11 0 0 0 0 0 0 0 0 1 0])
+  ("whitespace-tab" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("whitespace-space" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("whitespace-indentation" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("whitespace" .
+   [0 0 0 0 0 0 0 0 0 1])
+  (":foreground" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("term-color-black" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set-face-attribute" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("face" .
+   [1 0 0 0])
+  ("face-background" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("term-default-bg-color" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("default" .
+   [2 0 0 0 0 0 0])
+  ("face-foreground" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("term-default-fg-color" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("up" .
+   [1 0])
+  ("color" .
+   [1 0 0 0 0])
+  ("global-undo-tree-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("require" .
+   [7 0 0 0 0 0 0])
+  ("again" .
+   [0 0 1 0 0])
+  ("undo" .
+   [1 0 0 0])
+  ("undo-tree" .
+   [1 0 0 0 0 0 0 0 0])
+  ("mult" .
+   [1 0 0 0])
+  ("multi-term-program-switches" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [14 0 0 0])
+  ("multi-term" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("term" .
+   [3 0 0 0])
+  ("terminfo" .
+   [1 0 0 0 0 0 0 0])
+  ("set" .
+   [6 0 0])
+  ("system-uses-terminfo" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("nil" .
+   [4 0 0])
+  ("class" .
+   [2 0 0 0 0])
+  ("year" .
+   [8 0 0 0])
+  ("Year" .
+   [1 0 0 0])
+  ("def" .
+   [1 0 0])
+  ("leap" .
+   [1 0 0 0])
+  ("case" .
+   [2 0 0 0])
+  ("when" .
+   [4 0 0 0])
+  ("foo" .
+   [1 0 0])
+  ("true" .
+   [1 0 0 0])
+  ("unless" .
+   [1 0 0 0 0 0])
+  ("else" .
+   [2 0 0 0])
+  ("FALSE" .
+   [0 0 0 0 2])
+  ("false" .
+   [1 0 0 0 0])
+  ("module" .
+   [1 0 0 0 0 0])
+  ("server-start" .
+   [1 0 0 0 0 0 0 0 0 0 0 1])
+  ("modified" .
+   [2 0 0 0 0 0 0 0])
+  ("by" .
+   [1 0])
+  ("Dave" .
+   [1 0 0 0])
+  ("previous" .
+   [1 0 0 0 0 0 0 0])
+  ("to" .
+   [1 0])
+  ("commands" .
+   [1 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [4 0 0 0 0 0 0 0])
+  ("enable-paredit-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [3 0 0 0 0 0])
+  ("scroll-up" .
+   [1 0 0 0 0 0 0 0 0])
+  ("forward-char" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("backward-char" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("300" .
+   [2 0 0])
+  ("define" .
+   [2 0 0 0 0 0])
+  ("20" .
+   [1 0])
+  ("printf" .
+   [2 0 1 1 0 0])
+  ("UPPER" .
+   [1 0 0 0 0])
+  ("STEP" .
+   [1 0 0 0])
+  ("LOWER" .
+   [1 0 0 0 0])
+  ("PATH" .
+   [1 0 0 0])
+  ("auto-mode-alist" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cons" .
+   [1 0 1 0])
+  ("autoload" .
+   [1 0 0 0 0 0 0 0])
+  ("coq-mode" .
+   [2 0 0 0 0 0 0 0])
+  ("coq-unicode-tokens-enable" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("proof-electric-terminator-enable" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("coq-script-" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("defun" .
+   [1 0 0 0 0])
+  ("coq" .
+   [1 0 0])
+  ("local-set-key" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("newline-and-indent" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("coq-mode-newline-and-indent" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("load" .
+   [1 0 0 0])
+  ("go" .
+   [1 0])
+  ("eq" .
+   [1 0])
+  ("include" .
+   [1 0 0 0 0 0 0])
+  ("stdio" .
+   [1 0 0 0 0])
+  ("int" .
+   [2 0 0])
+  ("main" .
+   [1 0 0 0])
+  ("nwhite" .
+   [3 0 0 0 0 0])
+  ("nother" .
+   [3 0 0 0 0 0])
+  ("for" .
+   [2 0 0])
+  ("ndigit" .
+   [2 0 0 0 0 0])
+  ("while" .
+   [1 0 0 0 0])
+  ("EOF" .
+   [1 0 0])
+  ("if" .
+   [1 0])))

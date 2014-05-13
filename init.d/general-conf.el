@@ -1,7 +1,7 @@
 ;; general emacs configurations, i.e. stuff for all buffers
 
 ;; font and size
-(set-default-font "Inconsolata 14")
+(set-default-font "Inconsolata 16")
 
 ;; turn stupid GUI toolbar and scrollbars off
 (when (window-system)
