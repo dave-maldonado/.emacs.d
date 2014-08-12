@@ -55,3 +55,6 @@
 [submodule "lib/rspec-mode"]
 	path = lib/rspec-mode
 	url = https://github.com/pezra/rspec-mode
+[submodule "lib/base16-emacs"]
+	path = lib/base16-emacs
+	url = https://github.com/neil477/base16-emacs.git

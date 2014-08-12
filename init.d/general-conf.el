@@ -3,6 +3,10 @@
 ;; font and size
 (set-default-font "Inconsolata 16")
 
+;; solarized color theme
+(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/base16-emacs")
+(load-theme 'base16-ocean t)
+
 ;; turn stupid GUI toolbar and scrollbars off
 (when (window-system)
   (tool-bar-mode -1)
@@ -45,10 +49,6 @@
 
 ;; electric-indent
 (electric-indent-mode +1)
-
-;; solarized color theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/emacs-color-theme-solarized")
-(load-theme 'solarized-dark t)
 
 ;; autopair
 (require 'autopair)
