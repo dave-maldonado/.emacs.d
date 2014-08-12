@@ -4,6 +4,9 @@
 (add-to-list 'auto-mode-alist '("\\.\\(rb\\|ru\\|builder\\|rake\\|thor\\|gemspec\\)\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\(rake\\|thor\\|guard\\|gem\\|cap\\|vagrant\\)file\\'" . ruby-mode))
 (require 'rinari)
+(require 'rspec-mode)
+(eval-after-load 'rspec-mode
+ '(rspec-install-snippets))
 (require 'rhtml-mode)
 (require 'haml-mode)
 (require 'slim-mode)

@@ -49,9 +49,9 @@
 [submodule "lib/haskell-mode"]
 	path = lib/haskell-mode
 	url = https://github.com/haskell/haskell-mode.git
-[submodule "lib/go-mode"]
-	path = lib/go-mode
-	url = https://github.com/dominikh/go-mode.el.git
-[submodule "lib/go-errcheck"]
-	path = lib/go-errcheck
-	url = https://github.com/dominikh/go-errcheck.el.git
+[submodule "lib/php-mode"]
+	path = lib/php-mode
+	url = https://github.com/ejmr/php-mode.git
+[submodule "lib/rspec-mode"]
+	path = lib/rspec-mode
+	url = https://github.com/pezra/rspec-mode

@@ -11,6 +11,11 @@
 ;; start w/ scratch buffer
 (setq inhibit-startup-screen +1)
 
+;; kill all the buffers!
+(defun close-all-buffers ()
+  (interactive)
+  (mapc 'kill-buffer (buffer-list)))
+
 ;; C-w backward-delete-word if no region is selected
 (defadvice kill-region (before unix-werase activate compile)
   (interactive

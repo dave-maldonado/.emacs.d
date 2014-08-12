@@ -1,9 +1,5 @@
 ;; Emacs configuration for lispy languages
 
-;; Quack!
-(setq scheme-program-name "mit-scheme-x86-64")
-(require 'quack)
-
 ;; Clojure
 (require 'clojure-mode)
 
