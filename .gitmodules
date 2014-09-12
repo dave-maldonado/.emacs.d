@@ -58,3 +58,6 @@
 [submodule "lib/base16-emacs"]
 	path = lib/base16-emacs
 	url = https://github.com/neil477/base16-emacs.git
+[submodule "lib/ethan-wspace"]
+	path = lib/ethan-wspace
+	url = https://github.com/glasserc/ethan-wspace.git

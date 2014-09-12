@@ -16,7 +16,7 @@
 (setq inhibit-startup-screen +1)
 
 ;; kill all the buffers!
-(defun close-all-buffers ()
+(defun kill-all-buffers ()
   (interactive)
   (mapc 'kill-buffer (buffer-list)))
 
@@ -32,9 +32,6 @@
            mark-active)
       (kill-region (region-beginning) (region-end))
     (backward-kill-word arg)))
-
-;; C-n newlines if at end of buffer
-(setq next-line-add-newlines t)
 
 ;; line numbering
 (global-linum-mode 1)
@@ -127,6 +124,13 @@
 ;; pretty mode plus
 (require 'pretty-mode-plus)
 (global-pretty-mode 1)
+
+;; ethan-wspace
+;; (require 'ethan-wspace)
+;; (global-ethan-wspace-mode 1)
+
+;; auto refresh buffers when changes made on disk
+(global-auto-revert-mode t)
 
 ;; start server for emacsclient
 (server-start)
