@@ -45,7 +45,7 @@
 	url = https://github.com/clojure-emacs/clojure-mode.git
 [submodule "lib/pretty-mode-plus"]
 	path = lib/pretty-mode-plus
-	url = http://github.com/grettke/pretty-mode-plus.git
+	url = http://github.com/dave-maldonado/pretty-mode-plus.git
 [submodule "lib/haskell-mode"]
 	path = lib/haskell-mode
 	url = https://github.com/haskell/haskell-mode.git
