@@ -1,29 +1,8 @@
-;; ruby and rails emacs configurations
+;; ruby stuffs
 
-;; ROR STUFFS
+;; include rubyish files
 (add-to-list 'auto-mode-alist '("\\.\\(rb\\|ru\\|builder\\|rake\\|thor\\|gemspec\\)\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\(rake\\|thor\\|guard\\|gem\\|cap\\|vagrant\\)file\\'" . ruby-mode))
-(require 'rinari)
-(require 'rspec-mode)
-(eval-after-load 'rspec-mode
- '(rspec-install-snippets))
-(require 'rhtml-mode)
-(require 'haml-mode)
-(require 'slim-mode)
-(setq exec-path (cons (expand-file-name "~/.rvm/gems/ruby-2.1.1@global/gems") exec-path))
-(autoload 'scss-mode "scss-mode")
-(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
-
-;; markdown
-(autoload 'markdown-mode "markdown-mode"
-  "Major mode for editing Markdown files" t)
-(add-to-list 'auto-mode-alist '("\\.test\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
-
-;; rvm
-(require 'rvm)
-(rvm-use-default)
 
 ;; sennys string interpolation insert
 (defun senny-ruby-interpolate ()

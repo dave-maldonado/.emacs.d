@@ -1,11 +1,10 @@
-;; general emacs configurations, i.e. stuff for all buffers
+;; general emacs config
+
+;; start server for emacsclient
+(server-start)
 
 ;; font and size
 (set-default-font "Inconsolata 16")
-
-;; solarized color theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/base16-emacs")
-(load-theme 'base16-ocean t)
 
 ;; turn stupid GUI toolbar and scrollbars off
 (when (window-system)
@@ -40,21 +39,31 @@
 ;; kill trailing whitespace on file write
 (add-hook 'write-file-hooks 'delete-trailing-whitespace)
 
-;; highlight part of line that goes beyond column 80
-(setq whitespace-style '(face empty tabs lines-tail trailing))
-(global-whitespace-mode t)
+;; ido mode
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+(setq ido-create-new-buffer 'always)
+(setq ido-file-extensions-order '(".rb" ".erb" ".haml " ".html" ".java" ".clj" ".hs"))
 
-;; electric-indent
-(electric-indent-mode +1)
+;; scrolling mods
+(setq redisplay-dont-pause t
+      scroll-margin 1
+      scroll-step 1
+      scroll-conservatively 10000
+      scroll-preserve-screen-position 1
+      mouse-wheel-progressive-speed nil)
+(setq mouse-wheel-follow 't)
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
 
-;; autopair
-(require 'autopair)
-(autopair-global-mode)
-;; pair % in rhtml mode
-(add-hook 'rhtml-mode-hook
-          #'(lambda ()
-              (modify-syntax-entry ?% "\"")
-              (autopair-mode)))
+;; disable bell
+(setq ring-bell-function 'ignore)
+
+;; auto refresh buffers when changes made on disk
+(global-auto-revert-mode t)
+
+;; electric pair mode
+(electric-pair-mode 1)
 
 ;; rainbow delimiters
 ;; if re-installing don't forget to M-x byte-compile-file rainbow-delimiters.el
@@ -65,72 +74,21 @@
                     :inherit 'error
                     :strike-through t)
 
-;; ido mode
-(setq ido-enable-flex-matching t)
-(setq ido-everywhere t)
-(ido-mode 1)
-(setq ido-create-new-buffer 'always)
-(setq ido-file-extensions-order '(".rb" ".erb" ".haml " ".html" ".java" ".clj" ".hs"))
+;; base 16 emacs themes
+(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/base16-emacs")
+(load-theme 'base16-chalk t)
 
 ;; git-gutter
 (when (window-system)
   (require 'git-gutter-fringe)
   (global-git-gutter-mode t))
 
-;; scrolling mods
-(setq redisplay-dont-pause t
-      scroll-margin 1
-      scroll-step 1
-      scroll-conservatively 10000
-      scroll-preserve-screen-position 1)
-(setq mouse-wheel-follow 't)
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
-
-;; disable bell
-(setq ring-bell-function 'ignore)
-
-;; auto-complete
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "/Users/dave/.emacs.d/lib//ac-dict")
-(ac-config-default)
-
-;; ag
-(require 'ag)
-
 ;; undo-tree
 (require 'undo-tree)
 (global-undo-tree-mode)
 
-;; multi-term
-(require 'multi-term)
-(setq multi-term-program "/bin/zsh")
-(setq multi-term-program-switches "--login")
-(add-to-list 'term-bind-key-alist '("C-f" . forward-char))
-(add-to-list 'term-bind-key-alist '("C-b" . backward-char))
-(add-to-list 'term-bind-key-alist '("C-a" . move-beginning-of-line))
-(add-to-list 'term-bind-key-alist '("C-e" . move-end-of-line))
-(add-to-list 'term-bind-key-alist '("M-p" . scroll-down-command))
-(add-to-list 'term-bind-key-alist '("M-n" . scroll-up-command))
-(add-to-list 'term-bind-key-alist '("C-w" . kill-region))
-(add-to-list 'term-bind-key-alist '("M-w" . kill-ring-save))
-(add-to-list 'term-bind-key-alist '("M-y" . yank-pop))
-
-;; fix too-dark faces
-(set-face-attribute 'term-color-black nil :foreground "#52676f")
-(set-face-attribute 'whitespace-indentation nil :foreground "#52676f")
-(set-face-attribute 'whitespace-space nil :foreground "#52676f")
-(set-face-attribute 'whitespace-tab nil :foreground "#52676f")
-
-;; pretty mode plus
-(require 'pretty-mode-plus)
-(global-pretty-mode 1)
-
-;; ethan-wspace
-;; (require 'ethan-wspace)
-;; (global-ethan-wspace-mode 1)
-
-;; auto refresh buffers when changes made on disk
-(global-auto-revert-mode t)
-
-;; start server for emacsclient
-(server-start)
+;; yasnippet
+(add-to-list 'load-path
+	     "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)

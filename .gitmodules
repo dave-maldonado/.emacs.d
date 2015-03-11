@@ -1,63 +1,24 @@
-[submodule "lib/emacs-color-theme-solarized"]
-	path = lib/emacs-color-theme-solarized
-	url = https://github.com/sellout/emacs-color-theme-solarized.git
-[submodule "lib/emacs-slim"]
-	path = lib/emacs-slim
-	url = https://github.com/slim-template/emacs-slim.git
-[submodule "lib/haml-mode"]
-	path = lib/haml-mode
-	url = https://github.com/nex3/haml-mode.git
-[submodule "lib/rhtml"]
-	path = lib/rhtml
-	url = https://github.com/eschulte/rhtml.git
-[submodule "lib/rinari"]
-	path = lib/rinari
-	url = https://github.com/eschulte/rinari
-[submodule "lib/emacs-git-gutter-fringe"]
-	path = lib/emacs-git-gutter-fringe
-	url = https://github.com/syohex/emacs-git-gutter-fringe.git
-[submodule "lib/emacs-git-gutter"]
-	path = lib/emacs-git-gutter
-	url = https://github.com/syohex/emacs-git-gutter.git
-[submodule "lib/fringe-helper"]
-	path = lib/fringe-helper
-	url = https://github.com/nschum/fringe-helper.el
-[submodule "lib/rvm"]
-	path = lib/rvm
-	url = https://github.com/senny/rvm.el.git
-[submodule "lib/flymake-ruby"]
-	path = lib/flymake-ruby
-	url = https://github.com/purcell/flymake-ruby.git
-[submodule "lib/flymake-easy"]
-	path = lib/flymake-easy
-	url = https://github.com/purcell/flymake-easy.git
-[submodule "lib/ag"]
-	path = lib/ag
-	url = https://github.com/Wilfred/ag.el
-[submodule "lib/undo-tree"]
-	path = lib/undo-tree
-	url = http://www.dr-qubit.org/git/undo-tree.git
-[submodule "lib/scss-mode"]
-	path = lib/scss-mode
-	url = https://github.com/antonj/scss-mode
-[submodule "lib/clojure-mode"]
-	path = lib/clojure-mode
-	url = https://github.com/clojure-emacs/clojure-mode.git
-[submodule "lib/pretty-mode-plus"]
-	path = lib/pretty-mode-plus
-	url = http://github.com/dave-maldonado/pretty-mode-plus.git
-[submodule "lib/haskell-mode"]
-	path = lib/haskell-mode
-	url = https://github.com/haskell/haskell-mode.git
-[submodule "lib/php-mode"]
-	path = lib/php-mode
-	url = https://github.com/ejmr/php-mode.git
-[submodule "lib/rspec-mode"]
-	path = lib/rspec-mode
-	url = https://github.com/pezra/rspec-mode
 [submodule "lib/base16-emacs"]
 	path = lib/base16-emacs
-	url = https://github.com/neil477/base16-emacs.git
-[submodule "lib/ethan-wspace"]
-	path = lib/ethan-wspace
-	url = https://github.com/glasserc/ethan-wspace.git
+	url = git@github.com:neil477/base16-emacs.git
+[submodule "lib/emacs-git-gutter-fringe"]
+	path = lib/emacs-git-gutter-fringe
+	url = git@github.com:syohex/emacs-git-gutter-fringe.git
+[submodule "lib/undo-tree"]
+	path = lib/undo-tree
+	url = git@github.com:emacsmirror/undo-tree.git
+[submodule "lib/emacs-git-gutter"]
+	path = lib/emacs-git-gutter
+	url = git@github.com:syohex/emacs-git-gutter.git
+[submodule "lib/fringe-helper"]
+	path = lib/fringe-helper
+	url = git@github.com:nschum/fringe-helper.el.git
+[submodule "lib/lib/flymake-ruby"]
+	path = lib/lib/flymake-ruby
+	url = git@github.com:purcell/flymake-ruby.git
+[submodule "lib/lib/flymake-easy"]
+	path = lib/lib/flymake-easy
+	url = git@github.com:purcell/flymake-easy.git
+[submodule "lib/yasnippet"]
+	path = lib/yasnippet
+	url = git@github.com:capitaomorte/yasnippet.git

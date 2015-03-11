@@ -6,3 +6,4 @@
 (define-key global-map (kbd "M-p") 'scroll-down-command)
 (define-key global-map (kbd "C-x C-m") 'execute-extended-command)
 (define-key global-map (kbd "C-x m") 'execute-extended-command)
+(define-key global-map (kbd "C-i") 'indent-region)
