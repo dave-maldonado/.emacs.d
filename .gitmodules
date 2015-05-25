@@ -25,6 +25,6 @@
 [submodule "lib/tabbar"]
 	path = lib/tabbar
 	url = git@github.com:dholm/tabbar.git
-[submodule "init.d/haskell-mode"]
+[submodule "lib/haskell-mode"]
 	path = lib/haskell-mode
 	url = git@github.com:haskell/haskell-mode.git
