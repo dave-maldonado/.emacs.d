@@ -22,3 +22,9 @@
 [submodule "lib/yasnippet"]
 	path = lib/yasnippet
 	url = git@github.com:capitaomorte/yasnippet.git
+[submodule "lib/tabbar"]
+	path = lib/tabbar
+	url = git@github.com:dholm/tabbar.git
+[submodule "init.d/haskell-mode"]
+	path = lib/haskell-mode
+	url = git@github.com:haskell/haskell-mode.git
