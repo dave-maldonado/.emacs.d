@@ -5,6 +5,5 @@
 (let ((default-directory "~/.emacs.d/lib/"))
   (normal-top-level-add-subdirs-to-load-path))
 
-;; add .emacs.d/init.d/ to load path
-(require 'load-directory)
-(load-directory "~/.emacs.d/init.d/")
+;; load .el files in .emacs.d/init.d/
+(mapc 'load (file-expand-wildcards "~/.emacs.d/init.d/*.el"))
