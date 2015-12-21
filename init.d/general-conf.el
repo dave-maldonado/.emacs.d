@@ -5,7 +5,7 @@
 
 ;; solarized color theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/lib/base16-emacs")
-(load-theme 'base16-ocean t)
+(load-theme 'base16-ocean-dark t)
 
 ;; turn stupid GUI toolbar and scrollbars off
 (when (window-system)

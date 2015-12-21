@@ -10,9 +10,6 @@
 [submodule "lib/rhtml"]
 	path = lib/rhtml
 	url = https://github.com/eschulte/rhtml.git
-[submodule "lib/rinari"]
-	path = lib/rinari
-	url = https://github.com/eschulte/rinari
 [submodule "lib/emacs-git-gutter-fringe"]
 	path = lib/emacs-git-gutter-fringe
 	url = https://github.com/syohex/emacs-git-gutter-fringe.git
@@ -61,3 +58,18 @@
 [submodule "lib/ethan-wspace"]
 	path = lib/ethan-wspace
 	url = https://github.com/glasserc/ethan-wspace.git
+[submodule "lib/scala-mode2"]
+	path = lib/scala-mode2
+	url = git://github.com/hvesalai/scala-mode2.git
+[submodule "lib/sbt-mode"]
+	path = lib/sbt-mode
+	url = git://github.com/hvesalai/sbt-mode.git
+[submodule "lib/dash"]
+	path = lib/dash
+	url = git@github.com:magnars/dash.el.git
+[submodule "lib/s"]
+	path = lib/s
+	url = git@github.com:magnars/s.el.git
+[submodule "lib/inf-ruby"]
+	path = lib/inf-ruby
+	url = git@github.com:nonsequitur/inf-ruby.git

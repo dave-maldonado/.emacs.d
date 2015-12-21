@@ -1,4 +1,4 @@
-;; Dave's emacs init file 2014, configuration in /init.d, libraries in /lib
+;; Dave's emacs init file 2015, configuration in /init.d, libraries in /lib
 
 ;; add .emacs.d/lib/ and subdirectories to load path
 (add-to-list 'load-path "~/.emacs.d/lib/")
