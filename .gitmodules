@@ -73,3 +73,6 @@
 [submodule "lib/inf-ruby"]
 	path = lib/inf-ruby
 	url = git@github.com:nonsequitur/inf-ruby.git
+[submodule "lib/yasnippet"]
+	path = lib/yasnippet
+	url = https://github.com/capitaomorte/yasnippet
