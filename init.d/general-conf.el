@@ -4,8 +4,8 @@
 (set-default-font "Inconsolata 16")
 
 ;; solarized color theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/base16-emacs")
-(load-theme 'base16-ocean-dark t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/base16-emacs/build")
+(load-theme 'base16-ocean t)
 
 ;; turn stupid GUI toolbar and scrollbars off
 (when (window-system)
@@ -100,26 +100,6 @@
 ;; undo-tree
 (require 'undo-tree)
 (global-undo-tree-mode)
-
-;; multi-term
-(require 'multi-term)
-(setq multi-term-program "/bin/zsh")
-(setq multi-term-program-switches "--login")
-(add-to-list 'term-bind-key-alist '("C-f" . forward-char))
-(add-to-list 'term-bind-key-alist '("C-b" . backward-char))
-(add-to-list 'term-bind-key-alist '("C-a" . move-beginning-of-line))
-(add-to-list 'term-bind-key-alist '("C-e" . move-end-of-line))
-(add-to-list 'term-bind-key-alist '("M-p" . scroll-down-command))
-(add-to-list 'term-bind-key-alist '("M-n" . scroll-up-command))
-(add-to-list 'term-bind-key-alist '("C-w" . kill-region))
-(add-to-list 'term-bind-key-alist '("M-w" . kill-ring-save))
-(add-to-list 'term-bind-key-alist '("M-y" . yank-pop))
-
-;; fix too-dark faces
-(set-face-attribute 'term-color-black nil :foreground "#52676f")
-(set-face-attribute 'whitespace-indentation nil :foreground "#52676f")
-(set-face-attribute 'whitespace-space nil :foreground "#52676f")
-(set-face-attribute 'whitespace-tab nil :foreground "#52676f")
 
 ;; pretty mode plus
 (require 'pretty-mode-plus)
