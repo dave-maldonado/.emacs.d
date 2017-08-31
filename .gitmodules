@@ -76,3 +76,6 @@
 [submodule "lib/yasnippet"]
 	path = lib/yasnippet
 	url = https://github.com/capitaomorte/yasnippet
+[submodule "lib/idris-mode"]
+	path = lib/idris-mode
+	url = git@github.com:idris-hackers/idris-mode.git
